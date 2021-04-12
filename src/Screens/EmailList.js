@@ -54,7 +54,30 @@ function EmailList() {
       </div>
 
       <div className="emailList__list">
-        <EmailRow />
+        <EmailRow
+          title="Twitch"
+          subject="Hello"
+          description="This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Twitch"
+          subject="Hello"
+          description="This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Twitch"
+          subject="Hello"
+          description="This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Twitch"
+          subject="Hello"
+          description="This is a test"
+          time="10pm"
+        />
       </div>
     </div>
   );
