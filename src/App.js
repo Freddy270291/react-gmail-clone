@@ -6,8 +6,12 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Mail from "./Screens/Mail";
 import EmailList from "./Screens/EmailList";
 import SendMail from "./components/SendMail";
+import { useSelector } from "react-redux";
+import { selectSendMessageIsOpen } from "./features/mailSlice";
 
 function App() {
+  const sendMessageIsOpen = useSelector(selectSendMessageIsOpen);
+
   return (
     <div className="app">
       <Router>
@@ -24,7 +28,7 @@ function App() {
           </Switch>
         </div>
 
-        <SendMail />
+        {sendMessageIsOpen && <SendMail />}
       </Router>
     </div>
   );
