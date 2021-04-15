@@ -86,6 +86,36 @@ function EmailList() {
           description="This is a test"
           time="10pm"
         />
+        <EmailRow
+          title="Twitch"
+          subject="Hello"
+          description="This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Twitch"
+          subject="Hello"
+          description="This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Twitch"
+          subject="Hello"
+          description="This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Twitch"
+          subject="Hello"
+          description="This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Twitch"
+          subject="Hello"
+          description="This is a test"
+          time="10pm"
+        />
       </div>
     </div>
   );

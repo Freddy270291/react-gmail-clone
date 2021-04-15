@@ -36,15 +36,15 @@ function SendMail() {
       <form onSubmit={handleSubmit(onSubmit)}>
         <input
           name="to"
-          type="email"
           placeholder="To:"
+          type="email"
           ref={register({ required: true })}
         />
         {errors.to && <p className="sendMail__error">To is Required</p>}
         <input
           name="subject"
-          type="text"
           placeholder="Subject"
+          type="text"
           ref={register({ required: true })}
         />
         {errors.subject && (
@@ -52,8 +52,8 @@ function SendMail() {
         )}
         <input
           name="message"
-          type="text"
           placeholder="Message.."
+          type="text"
           className="sendMail__message"
           ref={register({ required: true })}
         />

@@ -22,3 +22,18 @@
   border-bottom: 1px solid whitesmoke;
   z-index: 999;
 }
+
+.emailList {
+  padding-bottom: 20%;
+}
+
+/* Hide scrollbar for Chrome, Safari and opera */
+.emailList::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.emailList {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
